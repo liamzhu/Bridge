@@ -7,7 +7,7 @@ public class LoadBanner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		DateTime dt1 = DateTime.Parse("2016-4-24");
+		DateTime dt1 = DateTime.Parse("2016-4-14");
 		//if(System.DateTime.Now > new System.DateTime()
 		if(DateTime.Compare(DateTime.Now, dt1) > 0){
 			//SendMessageUpwards("ShowAD");
