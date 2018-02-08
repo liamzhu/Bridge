@@ -5,7 +5,7 @@ public class BottomItem : MonoBehaviour {
 
     public int width;
     public UISprite birdgeSprite;
-	public GameObject offsetObj;
+	public GameObject offsetObj;//偏移物体
 
 	public FruitsControl fruitControl;
 	public CharacterControl enermyControl;
